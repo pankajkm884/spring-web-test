@@ -10,7 +10,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/users")
-public class controller {
+public class Controller {
 
     List<User> users = new ArrayList<>();
     @Value("${database.username}")
