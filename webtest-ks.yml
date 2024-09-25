@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web-app-container
-          image: pankajkm884/testweb1:latest
+          image: pankajkm884/testweb1:55
           env:
             - name: DATABASE_USERNAME
               valueFrom:
